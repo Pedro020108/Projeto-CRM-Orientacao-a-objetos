@@ -14,7 +14,7 @@ class MiniCRMApp:
             return
         lead = Lead(name, company, email)
         self.repo.add_lead(lead)
-        print("✔ Lead adicionado!")
+        print("Lead adicionado!")
 
     def list_leads(self):
         leads = self.repo.list_all()
