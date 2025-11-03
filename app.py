@@ -43,7 +43,7 @@ class MiniCRMApp:
     def export_csv(self):
         path = self.repo.export_csv()
         if path:
-            print(f"✔ Exportado para: {path}")
+            print(f"Exportado para: {path}")
         else:
             print("Erro ao exportar. Feche o arquivo e tente novamente.")
 
